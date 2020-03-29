@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
   License: none (public domain)
 */
@@ -44,4 +45,45 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+} 
+header: {
+    height: 40px;
+}
+nav {
+    height: 35px;
+    padding-top: 16px;
+}
+li {
+    display: inline-block;
+}
+.left-nav {
+    float: left;
+    margin: 7px 0 0 10px;
+}
+
+.right-nav {
+    float: right;
+    margin: 7px 10px 0 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+.left-menu a {
+    padding-left: 15px;
+}
+.right-menu a {
+    padding-right: 15px;
+}
+body {
+    font-family: arial, sans-serif;
+}
+.logo_container {
+    text-align: center;
+}
+.logo_search {
+    width: 292px;
+    height: 92px;
+    display: inline-block;
 }
